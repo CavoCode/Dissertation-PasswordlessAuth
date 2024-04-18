@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Registration";
+}
+@model RegistrationModel
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Context.Request.Method == "POST" && Model != null)
+{
+    var firstError = ViewData.ModelState.Values.SelectMany(v => v.Errors).FirstOrDefault()?.ErrorMessage;
+
+    if (firstError != null)
+    {
+        <div class="alert alert-danger">@firstError</div>
+    }
+}
+
+<form asp-action="RegisterFido">
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="DeviceName"></label>
+        <input asp-for="DeviceName" class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

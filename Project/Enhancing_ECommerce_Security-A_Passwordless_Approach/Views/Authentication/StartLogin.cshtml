@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Log In";
+}
+@model LoginModel
+
+<h2>@ViewData["Title"]</h2>
+
+@if (Context.Request.Method == "POST" && Model != null)
+{
+    var firstError = ViewData.ModelState.Values.SelectMany(v => v.Errors).FirstOrDefault()?.ErrorMessage;
+
+    if (firstError != null)
+    {
+        <div class="alert alert-danger">@firstError</div>
+    }
+}
+
+<form asp-action="LoginTOTP">
+    <div class="form-group">
+        <label asp-for="Email"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
