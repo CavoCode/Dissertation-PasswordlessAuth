@@ -12,7 +12,7 @@ using Rsk.AspNetCore.Fido.EntityFramework;
 namespace Migrations.Migrations.Fido
 {
     [DbContext(typeof(FidoDbContext))]
-    [Migration("20240418193944_Fido")]
+    [Migration("20240422205211_Fido")]
     partial class Fido
     {
         /// <inheritdoc />

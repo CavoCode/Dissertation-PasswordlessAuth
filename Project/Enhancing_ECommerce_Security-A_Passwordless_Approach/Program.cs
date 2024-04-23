@@ -3,6 +3,7 @@ using Enhancing_ECommerce_Security_A_Passwordless_Approach.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using ApplicationDbContext = Enhancing_ECommerce_Security_A_Passwordless_Approach.Data.ApplicationDbContext;
+using IEmailSender = Enhancing_ECommerce_Security_A_Passwordless_Approach.Services.IEmailSender;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -30,7 +31,8 @@ builder.Services.AddFido(options =>
 }).AddEntityFrameworkStore(options =>
     options.UseSqlServer(connectionString));
 
-builder.Services.AddSingleton<IEmailSender, EmailService>();
+builder.Services.Configure<EmailSettings>(builder.Configuration.GetSection("EmailSettings"));
+builder.Services.AddTransient<IEmailSender, EmailService>();
 
 builder.Services.AddAuthentication();
 builder.Services.AddAuthorization();

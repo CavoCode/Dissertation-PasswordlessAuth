@@ -1,6 +1,9 @@
-﻿using Microsoft.Extensions.Options;
-using MimeKit;
+﻿using Azure.Core;
+using Microsoft.Extensions.Options;
+using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
 using NuGet.Configuration;
+using System.Net;
+using System.Net.Mail;
 
 namespace Enhancing_ECommerce_Security_A_Passwordless_Approach.Services
 {
@@ -11,35 +14,36 @@ namespace Enhancing_ECommerce_Security_A_Passwordless_Approach.Services
 
     public class EmailService : IEmailSender
     {
-        private readonly IConfiguration _configuration;
+        private readonly EmailSettings _emailSettings;
+        private readonly SmtpClient _client;
 
-        public EmailService(IConfiguration configuration)
+        public EmailService(IOptions<EmailSettings> emailSettings)
         {
-            this._configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+            _emailSettings = emailSettings.Value;
+            _client = new SmtpClient
+            {
+                Host = _emailSettings.MailServer,
+                Port = _emailSettings.MailPort,
+                EnableSsl = true,
+                Credentials = new NetworkCredential(_emailSettings.Sender, _emailSettings.Password)
+            };
         }
 
         public async Task SendEmailAsync(string email, string subject, string message)
         {
-            var emailSettings = _configuration.GetSection("EmailSettings");
-            var mailMessage = new MimeMessage();
-            mailMessage.From.Add(new MailboxAddress(emailSettings["SenderName"], emailSettings["Sender"]));
-            mailMessage.To.Add(new MailboxAddress("User", email));
-            mailMessage.Subject = subject;
-
-            var builder = new BodyBuilder { HtmlBody = message };
-            mailMessage.Body = builder.ToMessageBody();
-
-            using var smtp = new MailKit.Net.Smtp.SmtpClient();
-            try
+            var mailMessage = new MailMessage
             {
-                smtp.Connect(emailSettings["MailServer"], int.Parse(emailSettings["MailPort"]), MailKit.Security.SecureSocketOptions.StartTls);
-                smtp.Authenticate(emailSettings["Sender"], emailSettings["Password"]);
-                await smtp.SendAsync(mailMessage);
-            }
-            finally
-            {
-                smtp.Disconnect(true);
-            }
+                From = new MailAddress(_emailSettings.Sender, _emailSettings.SenderName),
+                Subject = subject,
+                SubjectEncoding = System.Text.Encoding.UTF8,
+                Body = message,
+                BodyEncoding = System.Text.Encoding.UTF8,
+                IsBodyHtml = true
+            };
+
+            mailMessage.To.Add(email);
+
+            await _client.SendMailAsync(mailMessage);
         }
     }
 }

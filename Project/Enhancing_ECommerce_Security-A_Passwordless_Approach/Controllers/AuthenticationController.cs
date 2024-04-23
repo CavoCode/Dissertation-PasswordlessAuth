@@ -4,22 +4,14 @@ using System.Linq;
 using System.Security.Claims;
 using System.Text;
 using System.Text.Encodings.Web;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.WebUtilities;
 using Rsk.AspNetCore.Fido;
 using Rsk.AspNetCore.Fido.Dtos;
 using Rsk.AspNetCore.Fido.Stores;
-using Microsoft.VisualStudio.Web.CodeGenerators.Mvc.Templates.BlazorIdentity.Pages.Manage;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 using Enhancing_ECommerce_Security_A_Passwordless_Approach.Data;
-using NuGet.Common;
-using Enhancing_ECommerce_Security_A_Passwordless_Approach.Services;
-using System.Drawing.Printing;
 using System.Diagnostics;
-using IEmailSender = Microsoft.AspNetCore.Identity.UI.Services.IEmailSender;
+using IEmailSender = Enhancing_ECommerce_Security_A_Passwordless_Approach.Services.IEmailSender;
 
 namespace Enhancing_ECommerce_Security_A_Passwordless_Approach.Controllers
 {

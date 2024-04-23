@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Migrations\\20240422204958_Initialise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20240422204958_Initialise.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\enhancing_ecommerce_security-a_passwordless_approach\\services\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|solutionrelative:services\\emailsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\enhancing_ecommerce_security-a_passwordless_approach\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\enhancing_ecommerce_security-a_passwordless_approach\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|solutionrelative:services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +23,8 @@
       "RelativeMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\enhancing_ecommerce_security-a_passwordless_approach\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\enhancing_ecommerce_security-a_passwordless_approach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\enhancing_ecommerce_security-a_passwordless_approach\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -26,10 +38,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E670DB2-7CC4-4E0F-8DD3-FDC25C86BCCC}|..\\Migrations\\Migrations.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\migrations\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\enhancing_ecommerce_security-a_passwordless_approach\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A92E7B10-859D-41C5-AE17-A40EDA2886EC}|Enhancing_ECommerce_Security-A_Passwordless_Approach.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5E670DB2-7CC4-4E0F-8DD3-FDC25C86BCCC}|..\\Migrations\\Migrations.csproj|c:\\users\\micha\\dissertation-passwordlessauth\\project\\migrations\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
@@ -47,48 +55,72 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "20240422204958_Initialise.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Migrations\\20240422204958_Initialise.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240422204958_Initialise.cs",
+              "ToolTip": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Migrations\\20240422204958_Initialise.cs",
+              "RelativeToolTip": "Migrations\\20240422204958_Initialise.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T20:49:59.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmailSettings.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Services\\EmailSettings.cs",
+              "RelativeDocumentMoniker": "Services\\EmailSettings.cs",
+              "ToolTip": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Services\\EmailSettings.cs",
+              "RelativeToolTip": "Services\\EmailSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T20:36:21.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "Services\\EmailService.cs",
               "ToolTip": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Services\\EmailService.cs",
               "RelativeToolTip": "Services\\EmailService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB8AAAA/AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAqwB8AAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T21:01:28.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAwwCEAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T20:41:20.076Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "dbo.FidoKeys [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Enhancing_ECommerce_Security_A_Passwordless_Approach_5199c357_28de_4efa_98c8_28eaf7bc4e08/True/SqlTable/dbo.FidoKeys.sql",
               "ToolTip": "dbo.FidoKeys [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-18T19:50:17.799Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T19:50:17.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "dbo.AspNetUsers [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_Enhancing_ECommerce_Security_A_Passwordless_Approach_5199c357_28de_4efa_98c8_28eaf7bc4e08/True/SqlTable/dbo.AspNetUsers.sql",
               "ToolTip": "dbo.AspNetUsers [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-18T19:49:20.175Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-18T19:49:20.175Z"
             },
             {
               "$type": "Document",
@@ -98,14 +130,14 @@
               "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Controllers\\AuthenticationController.cs",
-              "ViewState": "AQIAAFgAAAAAAAAAAAAwwGsAAAAUAAAA",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAwwAgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-18T19:42:45.484Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -113,11 +145,12 @@
               "RelativeToolTip": "Data\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-18T19:19:18.168Z"
+              "WhenOpened": "2024-04-18T19:19:18.168Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Migrations\\Startup.cs",
               "RelativeDocumentMoniker": "..\\Migrations\\Startup.cs",
@@ -129,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Enhancing_ECommerce_Security-A_Passwordless_Approach\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -142,7 +175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\micha\\Dissertation-PasswordlessAuth\\Project\\Migrations\\appsettings.json",
               "RelativeDocumentMoniker": "..\\Migrations\\appsettings.json",

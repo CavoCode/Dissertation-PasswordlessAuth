@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Enhancing_ECommerce_Security-A_Passwordless_Approach")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d0250e40663fda769bbd3c6d08815231dda9e656")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e352cf35b7f17ed1bf5fdb64bf503263045662a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Enhancing_ECommerce_Security-A_Passwordless_Approach")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Enhancing_ECommerce_Security-A_Passwordless_Approach")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

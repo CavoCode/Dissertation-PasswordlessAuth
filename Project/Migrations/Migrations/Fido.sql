@@ -33,7 +33,7 @@ CREATE INDEX [IX_FidoKeys_UserId] ON [FidoKeys] ([UserId]);
 GO
 
 INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
-VALUES (N'20240418193944_Fido', N'8.0.4');
+VALUES (N'20240422205211_Fido', N'8.0.4');
 GO
 
 COMMIT;

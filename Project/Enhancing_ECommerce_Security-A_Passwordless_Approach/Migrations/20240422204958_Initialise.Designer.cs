@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Enhancing_ECommerce_Security_A_Passwordless_Approach.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240418192703_Initialise")]
+    [Migration("20240422204958_Initialise")]
     partial class Initialise
     {
         /// <inheritdoc />
